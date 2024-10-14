@@ -1,0 +1,9 @@
+cd f:\Z64Slop\Shipwright
+
+
+REGENERATE OTR
+'C:\Program Files\CMake\bin\cmake.exe' --build F:/Z64Slop/Shipwright/build/x64 --target ExtractAssets
+
+
+COMPILE PROJECT
+'C:\Program Files\CMake\bin\cmake.exe' --build F:/Z64Slop/Shipwright/build/x64

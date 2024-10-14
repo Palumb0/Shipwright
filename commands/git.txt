@@ -1,0 +1,20 @@
+cd f:/Z64Slop/Shipwright
+
+
+DELETE LOCAL REPOSITORY
+rm -rf .git
+#Makes it so you can delete the damn folder by removing .git folder from the project
+#Project NEEDS to be recogized as a github project for the command to work
+
+ls -lah
+#Checks the directory
+
+
+
+
+REGENERATE OTR
+'C:\Program Files\CMake\bin\cmake.exe' --build F:/Z64Slop/Shipwright/build/x64 --target ExtractAssets
+
+
+COMPILE PROJECT
+'C:\Program Files\CMake\bin\cmake.exe' --build F:/Z64Slop/Shipwright/build/x64
